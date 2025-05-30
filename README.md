@@ -13,7 +13,7 @@ Part B: Optimized Matrix Transpose
 Wrote a cache-efficient version of a matrix transpose function to minimize cache misses on a simulated 1KB direct-mapped cache with a 32-byte block size.
 
 
-#Part A: Cache Simulator
+**Part A: Cache Simulator**
 
 Files
 * csim.c: Source code for the cache simulator.
@@ -53,7 +53,7 @@ Implementation Notes
   * Tag
   * Age counter for LRU tracking
 
-# Part B: Matrix Transpose
+**Part B: Matrix Transpose**
 File
 * trans.c: Contains all matrix transpose logic and submission code.
 
@@ -70,7 +70,7 @@ Cache Configuration (for Part B Grading)
 * 1KB direct-mapped cache
 * 32-byte block size
 
-#Results
+**Results**
 Cache Simulator (Part A)
 * Successfully compiled and simulated traces.
 * Reports correct number of hits, misses, and evictions per trace file.
