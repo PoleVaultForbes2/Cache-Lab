@@ -38,11 +38,14 @@ Example:
 ~~~~~~~~~~~~~~~~~~~
 
 Command-Line Flags:
-* s <s>: Number of set index bits
-* E <E>: Number of lines per set (associativity)
-* b <b>: Number of block bits
-* t <tracefile>: Valgrind memory trace to simulate
-* v: (Verbose) Prints hit/miss/eviction messages for each memory access
+~~~~~~~~~~~~~~~~~~~
+-s <s>: Number of set index bits
+-E <E>: Number of lines per set (associativity)
+-b <b>: Number of block bits
+-t <tracefile>: Valgrind memory trace to simulate
+-v: (Verbose) Prints hit/miss/eviction messages for each memory access
+~~~~~~~~~~~~~~~~~~~
+
 
 Implementation Notes
 * Skips instruction load (I) accesses.
